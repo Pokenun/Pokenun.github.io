@@ -1,24 +1,13 @@
-header.h1{
-    background-color: #336;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
-  }
-
 body {
     background-color: whitesmoke;
-}
-
+}  
 p{
     color:green;
 }
 div.top{
-    background-color: #336;
-    padding: 30px;
+    font-size: 20px;
+    margin-top: 10px;
     text-align: center;
-    font-size: 35px;
-    color: white;
     
 }
 div.line{
@@ -51,6 +40,3 @@ div.body{
     margin-top: 40px;
     text-align: left;
 }
-font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
