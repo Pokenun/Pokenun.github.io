@@ -1,5 +1,5 @@
 body {
-    
+   background-color: lightgray; 
 
 }
 
@@ -22,14 +22,49 @@ div.row{
 flex-wrap:wrap;
 
 }
-div.bla{
-    outline: 18px solid black;
+div.row2{
+    display:flex;
+
 }
+div.container{
+    outline: 18px solid black;
+    position: relative;
+  text-align: center;
+  color: white;
+
+}
+div.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  div.box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    height: 400px;
+    font-size: 25px;
+    background-color: black;
+    overflow: scroll;
+  }
+ div.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 div.col{
-    outline: 2px solid orange;
+    outline: 2px solid rgb(226, 221, 210);
     width: 33.333%;
 } 
+div.banner {
+    font-size:36px;
+    background-color: grey;
+    margin-bottom:20px;
+  }
 div.key{
+    height: 50px;
+    width: calc(10% - 20px);
+    margin: 10px;
     text-align: center;
     color: aliceblue;
     background-color: black;
@@ -37,7 +72,39 @@ div.key{
     border-radius: 10px;
 }
 div.key:hover {
-    background-color: white;
+    background-color: rgb(74, 74, 74);
+    color: black;
+  }
+  div.key1{
+    position: relative;
+    left: 80px;
+    height: 50px;
+    width: calc(10% - 20px);
+    margin: 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  div.key1:hover {
+    background-color: rgb(74, 74, 74);
+    color: black;
+  }
+  div.key2{
+    position: relative;
+    left: 150px;
+    height: 50px;
+    width: calc(10% - 20px);
+    margin: 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  div.key2:hover {
+    background-color: rgb(74, 74, 74);
     color: black;
   }
 
@@ -47,7 +114,7 @@ div.width600{
 div.width33{
     width: 33.33%;;
 }
-
+s
 div.width66{
     width: 33.33%;
 }
@@ -68,12 +135,47 @@ div.width25{
 div.width12{
     width: 25%;
 }
-div.key{
-    width: 10%;
 
-}
 div.circle {
     background-color: green;
-    border-radius: 100%;
+    border-radius: 200px;
     height: 100%;
+    text-align:center;
+    font-size: 100px;
+    
+}
+div.circle:hover{
+    background:url(mouse.png);
+}
+div.sound{
+    position: absolute;
+    top: 105%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+        resize: both;
+        overflow: auto;
+}
+div.box-header{
+    font-weight: bold;
+}
+div.bannerlow {
+    font-size:130px;
+    background-color: rgb(112, 74, 74);
+    margin-bottom:20px;
+}
+div.bg-image{
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 { background-image: url("img_1.jpg"); }
+.img2 { background-image: url("img_2.jpg"); }
+.img3 { background-image: url("img_3.jpg"); }
+.img4 { background-image: url("img_4.jpg"); }
+.img5 { background-image: url("img_5.jpg"); }
+
+div.container.width3:hover{
+    background:url(LCDBb.png);
 }
